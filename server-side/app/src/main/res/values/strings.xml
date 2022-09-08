@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MelodyMusikServerSide</string>
+    <string name="nav_add_song">Add Song</string>
+    <string name="nav_add_singer">Add Singer</string>
+    <string name="nav_add_album">Add album</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

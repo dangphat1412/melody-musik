@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_player"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/toolbar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/ivPlayerSongCover"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="10dp"
+            android:src="@drawable/anhdaidien" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="186dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvSongTitleCover"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:fontFamily="sans-serif-condensed"
+                android:lines="1"
+                android:text="Havana (Camila Cabello song)"
+                android:textColor="@color/tectColor"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/tvSingerNameCover"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lines="1"
+                android:text="Camila Cabello"
+                android:textSize="14dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/ibPrevSongCover"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center_horizontal"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:clickable="true"
+                android:focusable="true"
+                android:scaleType="centerInside"
+                android:src="@drawable/ic_skip_previous_black" />
+
+            <ImageButton
+                android:id="@+id/ibPlayCover"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center_vertical"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:clickable="true"
+                android:focusable="true"
+                android:scaleType="centerInside"
+                android:src="@drawable/ic_play_black" />
+
+            <ImageButton
+                android:id="@+id/ibNextSongCover"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center_vertical"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:clickable="true"
+                android:focusable="true"
+                android:scaleType="centerInside"
+                android:src="@drawable/ic_skip_next_black" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="40dp"
+        android:background="@color/white" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/ivPlayerSongBig"
+            android:layout_width="270dp"
+            android:layout_height="270dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="70dp"
+            android:clickable="false"
+            android:scaleType="centerCrop"
+            android:src="@drawable/anhdaidien" />
+
+        <TextView
+            android:id="@+id/tvSongTitleMain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:lines="1"
+            android:text="Havana (Camila Cabello song)"
+            android:textColor="@color/tectColor"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/tvSingerNameMain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:lines="1"
+            android:text="Quang Le"
+            android:textColor="@color/tectColor"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/ibPlayerAddToPlaylist"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="right"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:clickable="true"
+            android:focusable="true"
+            android:padding="15dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_playlist_add_black" />
+
+        <SeekBar
+            android:id="@+id/seekBarTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvCurrentTime"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="160dp"
+                android:text="1:05"
+                android:textColor="@color/songTimerColor"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tvTotalTime"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="170dp"
+                android:fontFamily="sans-serif"
+                android:text="3:06"
+                android:textColor="@color/songTimerColor"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/ibShuffle"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginBottom="8dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:clickable="true"
+                android:focusable="true"
+                android:padding="15dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_shuffle_inactive" />
+
+            <ImageButton
+                android:id="@+id/ibPrevSong"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginBottom="8dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:clickable="true"
+                android:focusable="true"
+                android:padding="15dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_skip_previous_black" />
+
+            <ImageButton
+                android:id="@+id/ibPlayMain"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginEnd="30dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:clickable="true"
+                android:focusable="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_play_black" />
+
+            <ImageButton
+                android:id="@+id/ibNextSong"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="8dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:clickable="true"
+                android:focusable="true"
+                android:padding="15dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_skip_next_black" />
+
+            <ImageButton
+                android:id="@+id/ibRepeat"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_marginBottom="8dp"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:clickable="true"
+                android:focusable="true"
+                android:padding="15dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_repeat_inactive" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

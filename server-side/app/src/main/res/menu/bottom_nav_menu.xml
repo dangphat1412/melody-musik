@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_add_song"
+        android:icon="@drawable/ic_baseline_music_note"
+        android:title="@string/nav_add_song" />
+    <item
+        android:id="@+id/navigation_add_singer"
+        android:icon="@drawable/ic_baseline_person"
+        android:title="@string/nav_add_singer" />
+    <item
+        android:id="@+id/navigation_add_album"
+        android:icon="@drawable/ic_baseline_album"
+        android:title="@string/nav_add_album" />
+
+</menu>

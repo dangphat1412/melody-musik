@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1090538795569",
+    "firebase_url": "https://melodymusik-default-rtdb.firebaseio.com",
+    "project_id": "melodymusik",
+    "storage_bucket": "melodymusik.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1090538795569:android:937428aef2b05a71885b10",
+        "android_client_info": {
+          "package_name": "com.example.melodymusikserverside"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1090538795569-stdr7k3g9s0pakkbkahmk4d9te2svhsj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTqo8Nu24Tclsv6nt4C_Y8GCdcrQaFQPk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1090538795569-stdr7k3g9s0pakkbkahmk4d9te2svhsj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Term 07_Summer_2021/2.PRM391/MelodyMusikServerSide/app/src/main/res/drawable/bg_round_border.xml" value="0.3880208333333333" />
+        <entry key="..\:/Term 07_Summer_2021/2.PRM391/MelodyMusikServerSide/app/src/main/res/drawable/bg_spinner.xml" value="0.3880208333333333" />
+        <entry key="..\:/Term 07_Summer_2021/2.PRM391/MelodyMusikServerSide/app/src/main/res/drawable/bottom_sheet_background.xml" value="0.18489583333333334" />
+        <entry key="..\:/Term 07_Summer_2021/2.PRM391/MelodyMusikServerSide/app/src/main/res/drawable/gradient.xml" value="0.3880208333333333" />
+        <entry key="..\:/Term 07_Summer_2021/2.PRM391/MelodyMusikServerSide/app/src/main/res/drawable/ic_arrow_drop_down.xml" value="0.3880208333333333" />
+        <entry key="..\:/Term 07_Summer_2021/2.PRM391/MelodyMusikServerSide/app/src/main/res/drawable/ic_clear.xml" value="0.3880208333333333" />
+        <entry key="..\:/Term 07_Summer_2021/2.PRM391/MelodyMusikServerSide/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3880208333333333" />
+        <entry key="..\:/Term 07_Summer_2021/2.PRM391/MelodyMusikServerSide/app/src/main/res/drawable/rounded_corner.xml" value="0.3880208333333333" />
+        <entry key="..\:/Term 07_Summer_2021/2.PRM391/MelodyMusikServerSide/app/src/main/res/drawable/search_layout.xml" value="0.3880208333333333" />
+        <entry key="..\:/Term 07_Summer_2021/2.PRM391/MelodyMusikServerSide/app/src/main/res/layout/artist_bottom_sheet_item.xml" value="0.371875" />
+        <entry key="..\:/Term 07_Summer_2021/2.PRM391/MelodyMusikServerSide/app/src/main/res/layout/bottom_sheet_choose_artist.xml" value="0.371875" />
+        <entry key="..\:/Term 07_Summer_2021/2.PRM391/MelodyMusikServerSide/app/src/main/res/layout/catogories_item_spinner_layout.xml" value="0.371875" />
+        <entry key="..\:/Term 07_Summer_2021/2.PRM391/MelodyMusikServerSide/app/src/main/res/layout/fragment_add_album.xml" value="0.371875" />
+        <entry key="..\:/Term 07_Summer_2021/2.PRM391/MelodyMusikServerSide/app/src/main/res/layout/fragment_add_song.xml" value="0.25" />
+        <entry key="..\:/Users/Dang Phat/MelodyMusikServerSide/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/Dang Phat/MelodyMusikServerSide/app/src/main/res/drawable/bg_gradient_white.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/Dang Phat/MelodyMusikServerSide/app/src/main/res/drawable/bg_round_border.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/Dang Phat/MelodyMusikServerSide/app/src/main/res/drawable/bg_spinner.xml" value="0.21875" />
+        <entry key="..\:/Users/Dang Phat/MelodyMusikServerSide/app/src/main/res/drawable/bottom_sheet_background.xml" value="0.21875" />
+        <entry key="..\:/Users/Dang Phat/MelodyMusikServerSide/app/src/main/res/drawable/corner_button.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/Dang Phat/MelodyMusikServerSide/app/src/main/res/drawable/gradient.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/Dang Phat/MelodyMusikServerSide/app/src/main/res/drawable/ic_arrow_drop_down.xml" value="0.21875" />
+        <entry key="..\:/Users/Dang Phat/MelodyMusikServerSide/app/src/main/res/drawable/ic_baseline_add_circle_outline.xml" value="0.21875" />
+        <entry key="..\:/Users/Dang Phat/MelodyMusikServerSide/app/src/main/res/drawable/ic_baseline_add_circle_white.xml" value="0.21875" />
+        <entry key="..\:/Users/Dang Phat/MelodyMusikServerSide/app/src/main/res/drawable/ic_baseline_album.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/Dang Phat/MelodyMusikServerSide/app/src/main/res/drawable/ic_baseline_delete.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/Dang Phat/MelodyMusikServerSide/app/src/main/res/drawable/ic_baseline_music_note.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/Dang Phat/MelodyMusikServerSide/app/src/main/res/drawable/ic_baseline_person.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/Dang Phat/MelodyMusikServerSide/app/src/main/res/drawable/ic_clear.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/Dang Phat/MelodyMusikServerSide/app/src/main/res/drawable/ic_launcher_background.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/Dang Phat/MelodyMusikServerSide/app/src/main/res/drawable/ic_search.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/Dang Phat/MelodyMusikServerSide/app/src/main/res/drawable/recycle_view_layout.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/Dang Phat/MelodyMusikServerSide/app/src/main/res/drawable/round_corner_image.xml" value="0.21875" />
+        <entry key="..\:/Users/Dang Phat/MelodyMusikServerSide/app/src/main/res/drawable/rounded_corner.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/Dang Phat/MelodyMusikServerSide/app/src/main/res/drawable/rounded_corner_image.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/Dang Phat/MelodyMusikServerSide/app/src/main/res/drawable/search_layout.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/Dang Phat/MelodyMusikServerSide/app/src/main/res/layout/activity_main.xml" value="0.3569230769230769" />
+        <entry key="..\:/Users/Dang Phat/MelodyMusikServerSide/app/src/main/res/layout/artist_bottom_sheet_item.xml" value="0.3625" />
+        <entry key="..\:/Users/Dang Phat/MelodyMusikServerSide/app/src/main/res/layout/bottom_sheet_choose_artist.xml" value="0.3625" />
+        <entry key="..\:/Users/Dang Phat/MelodyMusikServerSide/app/src/main/res/layout/bottom_sheet_choose_song.xml" value="0.3625" />
+        <entry key="..\:/Users/Dang Phat/MelodyMusikServerSide/app/src/main/res/layout/catogories_item_spinner_layout.xml" value="0.2916666666666667" />
+        <entry key="..\:/Users/Dang Phat/MelodyMusikServerSide/app/src/main/res/layout/fragment_add_album.xml" value="0.3625" />
+        <entry key="..\:/Users/Dang Phat/MelodyMusikServerSide/app/src/main/res/layout/fragment_add_singer.xml" value="0.3625" />
+        <entry key="..\:/Users/Dang Phat/MelodyMusikServerSide/app/src/main/res/layout/fragment_add_song.xml" value="0.3625" />
+        <entry key="..\:/Users/Dang Phat/MelodyMusikServerSide/app/src/main/res/layout/song_bottom_sheet_item.xml" value="0.3625" />
+        <entry key="..\:/Users/Dang Phat/MelodyMusikServerSide/app/src/main/res/layout/song_item.xml" value="0.3625" />
+        <entry key="..\:/Users/Dang Phat/MelodyMusikServerSide/app/src/main/res/menu/bottom_nav_menu.xml" value="0.3625" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

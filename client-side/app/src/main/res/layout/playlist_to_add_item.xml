@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/playlistToAddItem"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginBottom="10dp">
+
+    <ImageView
+        android:id="@+id/ivPlaylistToAdd"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:id="@+id/tvTitlePlaylistToAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/ivPlaylistToAdd"
+        android:gravity="left"
+        android:layout_marginStart="17dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginRight="20dp"
+        android:layout_toEndOf="@+id/ivPlaylistToAdd"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="SongName"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    android:orientation="vertical"
+    tools:context=".activities.playlist.PlaylistFragment"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/tvPlaylistName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="@string/tvTitleMyPlaylist"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvListPlaylist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:foregroundGravity="center"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/btnAddPlaylist"
+        android:layout_width="245dp"
+        android:layout_height="47dp"
+        android:layout_gravity="center"
+        android:layout_margin="50dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="61dp"
+        android:background="@drawable/rounded_corner"
+        android:text="@string/btnAddPlaylist"
+        android:textColor="@color/black" />
+
+
+</LinearLayout>

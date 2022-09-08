@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/songItem"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp">
+
+    <ImageView
+        android:id="@+id/ivSongImageItem"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="20dp"></ImageView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvSongTitleItem"
+            android:layout_width="242dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="8dp"
+            android:fontFamily="@font/montserrat_bold"
+            android:hint="Name of Artist"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/tvAritstNameItem"
+            android:layout_width="242dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="8dp"
+            android:fontFamily="@font/montserrat"
+            android:hint="Name of Artist"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/btn_select_song"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_gravity="center"
+        android:background="@null"
+        android:contentDescription="image_content"
+        android:src="@drawable/ic_baseline_add_circle_white" />
+
+
+</LinearLayout>

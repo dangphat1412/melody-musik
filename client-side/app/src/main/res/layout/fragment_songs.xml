@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    android:padding="20dp"
+    tools:context=".activities.SongsFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:orientation="vertical">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/ivListSongCover"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:id="@+id/tvPlaylistName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/montserrat_bold"
+            android:text="@string/titleListSongs"
+            android:textColor="@color/white"
+            android:textSize="30dp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvListSong"
+            android:layout_width="match_parent"
+            android:layout_height="470dp" />
+    </LinearLayout>
+
+
+</LinearLayout>

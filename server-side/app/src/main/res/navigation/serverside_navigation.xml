@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/serverside_navigation"
+    app:startDestination="@id/addSongFragment">
+
+    <fragment
+        android:id="@+id/addSongFragment"
+        android:name="com.example.melodymusikserverside.AddSongFragment"
+        android:label="fragment_add_song"
+        tools:layout="@layout/fragment_add_song" />
+    <fragment
+        android:id="@+id/addSingerFragment"
+        android:name="com.example.melodymusikserverside.AddSingerFragment"
+        android:label="fragment_add_singer"
+        tools:layout="@layout/fragment_add_singer" />
+    <fragment
+        android:id="@+id/addAlbumFragment"
+        android:name="com.example.melodymusikserverside.AddAlbumFragment"
+        android:label="fragment_add_album"
+        tools:layout="@layout/fragment_add_album" />
+</navigation>

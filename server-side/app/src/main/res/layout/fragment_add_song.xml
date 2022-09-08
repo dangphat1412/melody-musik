@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    android:orientation="vertical"
+    tools:context=".AddSongFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <!-- TODO: Update blank fragment layout -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="30dp"
+                android:fontFamily="@font/montserrat_bold"
+                android:gravity="center"
+                android:text="Add Song"
+                android:textColor="@color/white"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/poppins"
+                android:text="Song name:"
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+            <EditText
+                android:id="@+id/ed_song_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:height="20dp"
+                android:backgroundTint="@color/white"
+                android:fontFamily="@font/montserrat_bold"
+                android:inputType="text"
+                android:maxLines="1"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textSize="24dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:id="@+id/tv_choose_song"
+                    android:layout_width="264dp"
+                    android:layout_height="match_parent"
+                    android:text="No file selected"
+                    android:textColor="@color/white"
+                    android:gravity="center_vertical"></TextView>
+
+                <Button
+                    android:id="@+id/btn_choose_song"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_round_border"
+                    android:fontFamily="@font/montserrat"
+                    android:text="Choose"></Button>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/poppins"
+                android:text="Artist:"
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+                <EditText
+                    android:id="@+id/ed_artist_name"
+                    android:layout_width="320dp"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:height="20dp"
+                    android:backgroundTint="@color/white"
+                    android:enabled="false"
+                    android:fontFamily="@font/montserrat_bold"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:textColor="@color/white"
+                    android:textColorHint="@color/white"
+                    android:textSize="24dp"
+                    android:textStyle="bold" />
+
+                <ImageButton
+                    android:id="@+id/btn_remove_artist"
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:layout_alignEnd="@+id/ed_artist_name"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="13dp"
+                    android:layout_marginEnd="0dp"
+                    android:contentDescription="image_content"
+                    android:src="@drawable/ic_clear"
+                    android:background="@drawable/bg_round_border"/>
+
+                <ImageButton
+                    android:id="@+id/btn_select_artist"
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="13dp"
+                    android:layout_marginEnd="0dp"
+                    android:layout_marginRight="2dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@null"
+                    android:src="@drawable/ic_baseline_add_circle_white"
+                    android:text="Button" />
+
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/montserrat"
+                android:text="Song image:"
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/bg_round_border"
+                android:orientation="horizontal"
+                android:padding="15dp">
+
+                <ImageView
+                    android:id="@+id/iv_select_song_image"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/placeholder_song" />
+
+                <LinearLayout
+                    android:id="@+id/ll_select_song_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="28dp"
+                        android:layout_height="28dp"
+                        android:contentDescription="image_content"
+                        android:src="@drawable/ic_baseline_add_circle_outline" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:fontFamily="@font/montserrat"
+                        android:text="Select image"
+                        android:textSize="14sp" />
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+            //Second
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/montserrat"
+                android:text="Song banner image:"
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/bg_round_border"
+                android:orientation="horizontal"
+                android:padding="15dp">
+
+                <ImageView
+                    android:id="@+id/iv_select_banner_image"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/placeholder_song" />
+
+                <LinearLayout
+                    android:id="@+id/ll_select_banner_image"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="28dp"
+                        android:layout_height="28dp"
+                        android:contentDescription="image_content"
+                        android:src="@drawable/ic_baseline_add_circle_outline" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:fontFamily="@font/montserrat"
+                        android:text="Select image"
+                        android:textSize="14sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="5dp"
+                android:fontFamily="@font/montserrat"
+                android:text="Catogories:"
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+            <Spinner
+                android:id="@+id/spinner_catogories"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/bg_spinner"/>
+
+            <Button
+                android:id="@+id/btn_add_new"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="50dp"
+                android:background="@drawable/rounded_corner"
+                android:fontFamily="@font/montserrat_bold"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:text="Add New"
+                android:textColor="@color/black" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

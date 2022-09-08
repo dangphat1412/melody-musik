@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.SongsFragment"
+    android:orientation="vertical"
+    android:background="@drawable/gradient"
+    android:padding="20dp">
+
+    <ImageView
+        android:id="@+id/ivPlaylistCover"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/playlistdefault" />
+
+    <TextView
+        android:id="@+id/tvPlaylistName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:fontFamily="@font/montserrat_bold"
+        android:textColor="@color/white"
+        android:text="@string/titleListSongs"
+        android:textSize="20dp" />
+
+    <android.widget.Button
+        android:id="@+id/btnAddSongToPlaylist"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_bg"
+        android:clickable="true"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="@string/AddSongToPlaylist" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvListSongInPlaylist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"/>
+
+
+
+
+
+</LinearLayout>

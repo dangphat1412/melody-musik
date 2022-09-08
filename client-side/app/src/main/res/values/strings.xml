@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Music App</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_bottom_navigation">BottomNavigation</string>
+    <string name="title_home">Home</string>
+    <string name="searchItem">Search</string>
+    <string name="albumItem">Album</string>
+    <string name="profileItem">Profile</string>
+    <string name="titleHome">Home</string>
+    <string name="homeCatogories" />
+    <string name="titleHomeCatogory">Catogories</string>
+    <string name="titleHomeSinger">Singers</string>
+    <string name="titleListSongs">List Songs</string>
+    <string name="titleListAlbums">List Albums</string>
+    <string name="tvTitleMyPlaylist">My Playlist</string>
+    <string name="tvPlaylistName_AddPlaylist">Playlist Name</string>
+    <string name="titleAddPlaylist">Add Playlist</string>
+    <string name="titlePlaylistName_AddPlaylist">Playlist name:</string>
+    <string name="titleChooseSong_AddPlaylist">Choose Song:</string>
+    <string name="btnAddPlaylist">Add Playlist</string>
+    <string name="btnSave">Save</string>
+    <string name="tvTitleLogin">Login</string>
+    <string name="btnLogin">Login</string>
+    <string name="textDontHaveAccount">Don\'t Have Account?</string>
+    <string name="tvSignUpText">Sign Up</string>
+    <string name="tvForgotPassword">Forgot Password ?</string>
+    <string name="AddSongToPlaylist">Add More Songs</string>
+
+</resources>

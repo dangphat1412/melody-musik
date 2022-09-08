@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/gradient"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="470dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/anhdaidien" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginTop="445dp"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/btnMyPlaylist"
+                        android:layout_width="256dp"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@drawable/buttonstyleithgradient"
+                        android:text="My Playlist"
+                        android:textColor="@color/white"
+                        android:textSize="18dp" />
+
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="80dp"
+                    android:layout_height="2dp"
+                    android:layout_marginTop="470dp"
+                    android:background="@color/startblue" />
+
+                <View
+                    android:layout_width="80dp"
+                    android:layout_height="2dp"
+                    android:layout_marginLeft="330dp"
+                    android:layout_marginTop="470dp"
+                    android:background="@color/startblue" />
+
+                <ImageButton
+                    android:id="@+id/ibSignOut"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="360dp"
+                    android:background="@null"
+                    android:src="@drawable/ic_baseline_exit_to_app_24" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="235dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="60dp"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center"
+                    android:text="Owner"
+                    android:textColor="@color/white"
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:id="@+id/tvUsername"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="sans-serif-condensed"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="25dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
